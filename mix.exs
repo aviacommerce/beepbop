@@ -33,8 +33,8 @@ defmodule BeepBop.MixProject do
       {:credo, "~> 0.9.1", only: :dev, runtime: false},
       {:credo_contrib, "~> 0.1.0-rc", only: :dev, runtime: false},
       {:excoveralls, "~> 0.7", only: :test},
-      {:ecto, "~> 3.7.0"},
-      {:postgrex, "~> 0.14.0", only: :test},
+      {:ecto, "~> 3.8.4"},
+      {:postgrex, "~> 0.16.0", only: :test},
       {:ex_doc, "~> 0.18", only: :dev, runtime: false}
     ]
   end
